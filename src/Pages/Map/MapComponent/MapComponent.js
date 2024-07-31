@@ -15,7 +15,7 @@ const mapContainerStyle = {
 
 const MapComponent = () => {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyDhEIliWrzOT6fT9kNFbovJZlGUCz4TfDA",
+    googleMapsApiKey: "",
     libraries,
     loading: "async",
   });
