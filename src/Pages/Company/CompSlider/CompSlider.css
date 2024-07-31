@@ -1,0 +1,29 @@
+.complider{
+    background-image: url("/public/images/about-bk-img.png") ;;
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+
+}
+.compliderPading{
+    padding-top: 80px;
+}
+.compText{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+.compText  h2{
+   
+    color: white;
+    
+}

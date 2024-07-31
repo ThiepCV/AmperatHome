@@ -1,0 +1,64 @@
+.partnerSec {
+    border-top: 1px solid #000;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  
+  .partnerWrap {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .title h1 {
+    font-size: 24px;
+    color: #00315c;
+    font-weight: bold;
+  }
+  
+  .logoPart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .logoPart > li {
+    list-style: none;
+  }
+  
+  .logoPartner img {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .logoPartner img:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .partnerWrap {
+      width: 90%;
+    }
+  
+    .title h1 {
+      font-size: 20px;
+    }
+  
+    .logoPartner img {
+      width: 80px;
+    }
+  }
+  

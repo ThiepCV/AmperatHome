@@ -1,0 +1,164 @@
+.info-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.company-info h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+.company-info p {
+  font-size: 18px;
+  color: #666;
+}
+
+.table-info {
+  margin-bottom: 30px;
+}
+
+.table-info h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.table-info table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.table-info th {
+  text-align: left;
+  padding: 10px;
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: normal;
+}
+
+.table-info td {
+  padding: 10px;
+  text-align: left;
+}
+
+.quote {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.quote h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.quote p {
+  font-size: 18px;
+  color: #666;
+}
+
+.quote q {
+  font-style: italic;
+  font-size: 20px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.greeting-section {
+  margin-bottom: 50px;
+}
+
+.greeting-text {
+  text-align: left;
+}
+
+.greeting-text h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.greeting-text h3 {
+  font-size: 20px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.greeting-text p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.greeting-text h5 {
+  font-size: 16px;
+  color: #888;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .info-section {
+    width: 90%;
+  }
+
+  .company-info h1 {
+    font-size: 28px;
+  }
+
+  .company-info p {
+    font-size: 16px;
+  }
+
+  .table-info h2 {
+    font-size: 20px;
+  }
+
+  .table-info th,
+  .table-info td {
+    font-size: 14px;
+  }
+
+  .quote h2 {
+    font-size: 20px;
+  }
+
+  .quote p {
+    font-size: 16px;
+  }
+
+  .quote q {
+    font-size: 18px;
+  }
+
+  .greeting-text h2 {
+    font-size: 20px;
+  }
+
+  .greeting-text h3 {
+    font-size: 18px;
+  }
+
+  .greeting-text p {
+    font-size: 14px;
+  }
+
+  .greeting-text h5 {
+    font-size: 14px;
+  }
+}

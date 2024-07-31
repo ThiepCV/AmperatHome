@@ -1,0 +1,146 @@
+.footer {
+  width: 100%;
+  background-color: #01315C;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer-content {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px;
+}
+
+.logo-and-signup {
+  max-width: 300px;
+}
+
+.logo {
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-top: 20px;
+}
+
+.effect-6 {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+}
+.smartphoneDowload{
+  height: 44.10px;
+}
+.effect-6 ~ .focus-border:before,
+.effect-6 ~ .focus-border:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #5783FC;
+  transition: 0.4s;
+}
+
+.effect-6 ~ .focus-border:after {
+  bottom: 0;
+  left: 0;
+}
+
+.effect-6 ~ .focus-border i:before,
+.effect-6 ~ .focus-border i:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 0;
+  background: #5783FC;
+  transition: 0.4s;
+}
+
+.effect-6:focus ~ .focus-border:before,
+.effect-6:focus ~ .focus-border:after {
+  width: 100%;
+}
+
+.effect-6:focus ~ .focus-border i:before,
+.effect-6:focus ~ .focus-border i:after {
+  height: 100%;
+}
+
+.effect-6 ~ label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: 0.4s;
+  color: white;
+}
+
+.effect-6:focus ~ label,
+.effect-6:valid ~ label {
+  top: -20px;
+  font-size: 12px;
+}
+
+.app-download {
+  text-align: center;
+}
+
+.download-buttons img {
+  width: 120px;
+  margin: 10px;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-link {
+  color: white;
+  font-size: 24px;
+}
+
+.footer-bottom {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+  text-align: center;
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo-and-signup, .app-download, .social-media {
+    max-width: 100%;
+  }
+
+}
